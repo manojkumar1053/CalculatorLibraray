@@ -10,3 +10,6 @@ class TestCalculator:
 
     def test_substraction2(self):
         assert 100 == calculator.subtract(200, 100)
+
+    def test_substraction2(self):
+        assert 100 == calculator.subtract(200, 100)
