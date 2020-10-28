@@ -13,3 +13,9 @@ class TestCalculator:
 
     def test_multipy(self):
         assert 20000 == calculator.multiply(200, 100)
+
+    def test_divide(self):
+        assert 100 == calculator.divide(1000, 10)
+
+    def test_mod(self):
+        assert 1 == calculator.mod(4, 3)
